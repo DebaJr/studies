@@ -1,0 +1,70 @@
+// Place all the styles related to the Blog controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#footer{
+    color: gray;
+    background-color: black;
+    padding: 10px;
+}
+
+.line {
+    border: solid black 2px;
+}
+
+
+#header{
+    img {
+        height: 100px;
+    }
+    padding: 25px;
+}
+
+#menu-options {
+   float: right;
+   font-size: 1.2em;
+   a {
+     color: #000;
+     border-radius: 0.5;
+     width: 130px;
+     
+   }
+   a:hover {
+     background-color: #aaa;
+   }
+   .active a {
+     background-color: #f0ad4e;
+   }
+ }
+
+.article {
+     margin-bottom: 25px;
+ }
+ 
+.category {
+     float: left;
+     margin-right: 5px;
+     margin-bottom: 10px;
+ }
+ 
+.post{
+     margin-top: 15px;
+ }
+ 
+.art-border{
+     border: dotted 1px black;
+     padding: 15px;
+     min-height: 150px;
+     max-height: 150px;
+     overflow-y: auto;
+ }
+ 
+.author {
+     font-style: italic;
+     text-align: right;
+ }
+
+
+
+ 
+ 

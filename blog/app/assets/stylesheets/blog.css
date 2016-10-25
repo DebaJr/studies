@@ -1,0 +1,64 @@
+#footer {
+  color: gray;
+  background-color: black;
+  padding: 10px; }
+
+.line {
+  border: solid black 2px; }
+
+#header {
+  padding: 25px; }
+  #header img {
+    height: 100px; }
+
+#menu-options {
+  float: right;
+  font-size: 1.2em; }
+  #menu-options a {
+    color: #000;
+    border-radius: 0.5;
+    width: 130px; }
+  #menu-options a:hover {
+    background-color: #aaa; }
+  #menu-options .active a {
+    background-color: #f0ad4e; }
+
+.article {
+  margin-bottom: 25px; }
+
+.category {
+     margin-right: 5px;
+ }
+ 
+.title {
+  padding: 5px;
+}
+.post {
+  margin-left: 50px;
+  
+}
+
+.art-border {
+  border: dotted 1px black;
+  padding: 15px;
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: auto; }
+
+.author {
+  font-style: italic;
+  text-align: right; }
+
+.comments {
+  margin-left: 50px;
+  padding: 10px;
+  font-size: 0.8em;
+  font-family: Arial;
+  color: gray; }
+
+.cat-menu {
+  margin-left: 100px;
+}
+
+
+/*# sourceMappingURL=blog.css.map */

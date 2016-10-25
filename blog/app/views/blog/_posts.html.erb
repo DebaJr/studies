@@ -1,0 +1,26 @@
+<div id="posts">
+  <% @posts.in_groups_of(2, false).each do |posts_group| %>
+
+    <div class="row article">
+      <% posts_group.each do |post| %>
+        <div class="col-md-6">
+          <div class="art-border">
+            <div class="category">
+                <span class="label label-warning"><%= post.category %></span>
+            </div>
+            <div class="title">
+              <h3><%= post.title %></h3>
+            </div>
+              <div class="post">
+                <%= post.content %>
+              </div>
+              <div class="author">
+                <%= post.author %>
+              </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+  <% end %>
+</div>
