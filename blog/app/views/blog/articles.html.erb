@@ -1,0 +1,34 @@
+<div class="container">
+  <!--<h1 class='title'><%#= @post.title %></h1>-->
+
+   <div class="col-md-6">
+          <div class="art-border">
+            <div class="category">
+                <span class="label label-warning"><%= @post.category %></span>
+            </div>
+            <div class="title">
+              <h3><%= link_to @post.title, {controller: :blog, action: :articles, id: @post.id} %></h3>
+            </div>
+              <div class="post">
+                <%= @post.content %>
+              </div>
+              <div class="author">
+                <%= @post.author %>
+              </div>
+          </div>
+        </div>
+ 
+ 
+ <!--
+ 
+  <div id="product" class="row">
+    <div class="col-md-6">
+      <div class="category">
+        <span class="label label-warning"><%#= @post.category %></span>
+      </div>
+      <div class="description">
+        <%#= @post.content %>
+      </div>
+    </div>
+  </div>
+</div>-->

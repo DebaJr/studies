@@ -5,7 +5,7 @@ class BlogController < ApplicationController
     @posts = Article.all
   end
   
-  def posts
+  def articles
     @post = Article.find(params[:id])
   end
   
